@@ -1,0 +1,201 @@
+-- New draggable Orion Lib script for hub creations!
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Destroyer hub",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "DestroyerHub" -- Met un nom personnalisé pour ton hub ici
+})
+
+print("Successfully executed.") -- Just a debug
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Destroyer ☠️"
+})
+
+Tab:AddButton({
+    Name = "bring all head",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/Q9DvbeiV/raw"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "fling all",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+    end    
+})
+
+local Tab2 = Window:MakeTab({
+    Name = "HD",
+    Icon = "rbxassetid://14209152555",
+    PremiumOnly = false
+})
+
+Tab2:AddButton({
+    Name = "Nameless admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+    end    
+})
+
+Tab2:AddButton({
+    Name = "Fate Admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+    end    
+})
+
+Tab2:AddButton({
+    Name = "infinite yield DELTA",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/uwuware/main/skripts/deltaIYmobile-kraxk.ppt",true))()
+    end    
+})
+
+Tab2:AddButton({
+    Name = "Gx admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/v6E9BmFK",true))()
+    end    
+})
+
+Tab2:AddButton({
+    Name = "Federo admin",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/alexx1212/fedoratoomutch/main/toomucth'))()
+    end    
+})
+
+Tab2:AddButton({
+    Name = "HomeBrew Admin",
+    Callback = function()
+        _G.CustomUI = false
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+    end    
+})
+
+Tab2:AddButton({
+    Name = "Revemped Admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-admin-works-after-discontinued-updated9362"))()
+    end    
+})
+
+Tab2:AddButton({
+    Name = "Cmd X",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+    end    
+})
+
+local Tab3 = Window:MakeTab({
+    Name = "Gui",
+    Icon = "rbxassetid://12345684588",
+    PremiumOnly = false
+})
+
+Tab3:AddButton({
+    Name = "Rochips panel",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/XZfnqnh0/raw"))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "Audio panel",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Audio-Panel-11581"))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "Backdoor Scan",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "Genesis hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Genesis-Hub-9584"))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "Dex keyless",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Keyless-mobile-dex-17888"))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "Remote hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "Ghost hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "Opfinality",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/OpFinality_590"))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "universal hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+    end    
+})
+
+Tab3:AddButton({
+    Name = "trolling hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+    end    
+})
+
+local Tab4 = Window:MakeTab({
+    Name = "Boombox scripts Hub",
+    Icon = "rbxassetid://10218885518",
+    PremiumOnly = false
+})
+
+Tab4:AddButton({
+    Name = "Salmon hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/YrsfKFKO/raw"))()
+    end    
+})
+
+Tab4:AddButton({
+    Name = "Pineapple scripts",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/zRHcqpLe", true))()
+    end    
+})
+
+Tab4:AddButton({
+    Name = "Keyboard",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+    end    
+})
