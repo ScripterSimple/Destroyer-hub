@@ -35,11 +35,11 @@ Duration = 20;
 spawn(function()
 local message = Instance.new("Message",workspace)
 message.Text = "LOAD SCRIPTS....."
-wait(1)
+wait(2)
 message:Destroy()
 end)
 
-wait(11.1)
+wait(8.6)
 -- New draggable Orion Lib script for hub creations!
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
