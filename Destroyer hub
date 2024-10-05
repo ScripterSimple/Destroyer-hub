@@ -25,7 +25,7 @@ wait(5)
 message:Destroy()
 end)
 
-wait(10.1)
+wait(6.5)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Scripts Create by OfficielTuto-Lua";
 Text = "account roblox create by chris_95910 and chris_959104";
@@ -307,5 +307,52 @@ Tab6:AddButton({
     Name = "Sander X hub",
     Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/Sanderxv3.30/main/sanderx3.30')))()
+    end    
+})
+
+local Tab7 = Window:MakeTab({
+    Name = "bypass AC",
+    Icon = "rbxassetid://176002395",
+    PremiumOnly = false
+})
+
+Tab7:AddButton({
+    Name = "AntiKick",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Anti-Kick/refs/heads/main/Anti-Kick.lua"))()
+    end    
+})
+
+Tab7:AddButton({
+    Name = "Adonis bypass",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
+    end    
+})
+
+local Tab8 = Window:MakeTab({
+    Name = "Harked/Comet",
+    Icon = "rbxassetid://196992795",
+    PremiumOnly = false
+})
+
+Tab8:AddButton({
+    Name = "Harked v2",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/Harkedv2-script/main/Leaked-v2hardked"))()
+    end    
+})
+
+Tab8:AddButton({
+    Name = "Comet",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/Comet"))();
+    end    
+})
+
+Tab8:AddButton({
+    Name = "Harked PandaExploit",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Live-Life-Rich-and-Famous-in-Paradise!-harked-that-only-work-for-this-game-8800"))()
     end    
 })
