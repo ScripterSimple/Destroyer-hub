@@ -1,3 +1,45 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "Scripts Create by OfficielTuto-Lua";
+Text = "account roblox create by chris_95910";
+Duration = 20;
+})
+ 
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "Scripts Create by OfficielTuto-Lua my account roblox is chris_95910"
+wait(5)
+message:Destroy()
+end)
+
+wait(5.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Scripts Create by OfficielTuto-Lua";
+Text = "account roblox create by chris_95910";
+Duration = 20;
+})
+ 
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "ScriptBlox scripts LOADS CREATE BY chris_95910 and chris_959104!"
+wait(5)
+message:Destroy()
+end)
+
+wait(10.1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Scripts Create by OfficielTuto-Lua";
+Text = "account roblox create by chris_95910 and chris_959104";
+Duration = 20;
+})
+ 
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "LOAD SCRIPTS....."
+wait(1)
+message:Destroy()
+end)
+
+wait(11.1)
 -- New draggable Orion Lib script for hub creations!
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
@@ -11,7 +53,7 @@ local Window = OrionLib:MakeWindow({
 print("Successfully executed.") -- Just a debug
 
 local Tab = Window:MakeTab({
-    Name = "Info",
+    Name = "kill/bringHead",
     Icon = "rbxassetid://1",
     PremiumOnly = false
 })
@@ -36,7 +78,7 @@ Tab:AddButton({
 
 local Tab2 = Window:MakeTab({
     Name = "HD",
-    Icon = "rbxassetid://14209152555",
+    Icon = "rbxassetid://16208317412",
     PremiumOnly = false
 })
 
@@ -197,5 +239,73 @@ Tab4:AddButton({
     Name = "Keyboard",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+    end    
+})
+
+local Tab5 = Window:MakeTab({
+    Name = "mm2",
+    Icon = "rbxassetid://1821888531",
+    PremiumOnly = false
+})
+
+Tab5:AddButton({
+    Name = "YARHM HUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Murder-Mystery-2-MM-AUTO-SHOOT-15532"))()
+    end    
+})
+
+Tab5:AddButton({
+    Name = "mm2 admin panel",
+    Callback = function()
+        
+    end    
+})
+
+Tab5:AddButton({
+    Name = "Esclipe hub",
+    Callback = function()
+        getgenv().mainKey = "nil";
+ 
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+    end    
+})
+
+local Tab6 = Window:MakeTab({
+    Name = "Brookhaven rp",
+    Icon = "rbxassetid://17600207895",
+    PremiumOnly = false
+})
+
+Tab6:AddButton({
+    Name = "Imperial hub",
+    Callback = function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
+    end    
+})
+
+Tab6:AddButton({
+    Name = "RD4 HUB",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+    end    
+})
+
+Tab6:AddButton({
+    Name = "Rochips panel troll",
+    Callback = function()
+        if "you wanna use rochips universal" then
+	local z_x,z_z="gzrux646yj/raw/main.ts","https://glot.io/snippets/"
+	local im,lonely,z_c=task.wait,game,loadstring
+	z_c(lonely:HttpGet(z_z..""..z_x))()
+	return ("This will load in about 2 - 30 seconds" or "according to your device and executor")
+end
+    end    
+})
+
+Tab6:AddButton({
+    Name = "Sander X hub",
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/Sanderxv3.30/main/sanderx3.30')))()
     end    
 })
