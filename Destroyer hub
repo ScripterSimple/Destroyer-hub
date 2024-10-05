@@ -39,7 +39,7 @@ wait(2)
 message:Destroy()
 end)
 
-wait(7)
+wait(8.6)
 -- New draggable Orion Lib script for hub creations!
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
@@ -354,5 +354,74 @@ Tab8:AddButton({
     Name = "Harked PandaExploit",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Live-Life-Rich-and-Famous-in-Paradise!-harked-that-only-work-for-this-game-8800"))()
+    end    
+})
+
+local Tab9 = Window:MakeTab({
+    Name = "Mics",
+    Icon = "rbxassetid://1959203705",
+    PremiumOnly = false
+})
+
+Tab9:AddButton({
+    Name = "fly gui V3",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/bHa6HDFc"))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "IgnoreFitouchintereste",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "God Mod",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ZAPFnK3W"))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "WalkSpeed",
+    Callback = function()
+        Game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+    end    
+})
+
+Tab9:AddButton({
+    Name = "Universal aimbot",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Mick-gordon/Hyper-Escape/main/DeleteMobCheatEngine.lua"))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "invisible Gui",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "Control npcs",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/TQQLPh3J/raw"))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "MultiGear Press E",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TjR8NAT2"))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "Keyboard",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
     end    
 })
