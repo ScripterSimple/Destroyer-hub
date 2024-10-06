@@ -39,7 +39,7 @@ wait(2)
 message:Destroy()
 end)
 
-wait(8.6)
+wait(6.7)
 -- New draggable Orion Lib script for hub creations!
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
@@ -176,14 +176,14 @@ Tab3:AddButton({
 Tab3:AddButton({
     Name = "Dex keyless",
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Keyless-mobile-dex-17888"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/DEX-Explorer/main/Mobile.lua"))()
     end    
 })
 
 Tab3:AddButton({
     Name = "Remote hub",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main"))()
     end    
 })
 
