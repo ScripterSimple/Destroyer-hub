@@ -447,7 +447,28 @@ local Tab9 = Window:MakeTab({
 })
 
 Tab9:AddButton({
-    Name = "Energize Gui",
+    Name = "Energize Gui R15",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "Animation R6 Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "",
+    Callback = function()
+        
+    end    
+})
+
+Tab9:AddButton({
+    Name = "",
     Callback = function()
         
     end    
