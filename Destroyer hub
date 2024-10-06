@@ -387,7 +387,7 @@ Tab9:AddButton({
 Tab9:AddButton({
     Name = "WalkSpeed",
     Callback = function()
-        Game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+        loadstring(game:HttpGet("https://pastebin.com/raw/HGvBTQ7y"))()
     end    
 })
 
@@ -423,5 +423,12 @@ Tab9:AddButton({
     Name = "Keyboard",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+    end    
+})
+
+Tab9:AddButton({
+    Name = "Tpwalk Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-tpwalk-script-17608"))()
     end    
 })
