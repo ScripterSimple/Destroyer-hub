@@ -432,3 +432,23 @@ Tab9:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-tpwalk-script-17608"))()
     end    
 })
+
+Tab9:AddButton({
+    Name = "ToolDraw",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Affexter/Programs/refs/heads/main/scripts/tooldrawFE.lua"))()
+    end    
+})
+
+local Tab9 = Window:MakeTab({
+    Name = "Animation",
+    Icon = "rbxassetid://95593705",
+    PremiumOnly = false
+})
+
+Tab9:AddButton({
+    Name = "Energize Gui",
+    Callback = function()
+        
+    end    
+})
