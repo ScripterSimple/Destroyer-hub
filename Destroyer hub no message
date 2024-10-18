@@ -432,3 +432,17 @@ Tab9:AddButton({
         
     end    
 })
+
+local Tab10 = Window:MakeTab({
+    Name = "Gang up simulator",
+    Icon = "rbxassetid://95593305",
+    PremiumOnly = false
+})
+
+Tab9:AddButton({
+    Name = "Best Gui By Me!",
+    Callback = function()
+        
+    end    
+})
+
