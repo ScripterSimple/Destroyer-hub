@@ -442,7 +442,7 @@ local Tab10 = Window:MakeTab({
 Tab9:AddButton({
     Name = "Best Gui By Me!",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastebin.com/raw/Fuift1T7"))()
     end    
 })
 
