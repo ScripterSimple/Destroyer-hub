@@ -445,4 +445,3 @@ Tab9:AddButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/Fuift1T7"))()
     end    
 })
-
