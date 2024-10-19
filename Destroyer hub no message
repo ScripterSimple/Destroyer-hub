@@ -1,4 +1,20 @@
+local screenGui = script.Parent  -- Le ScreenGui qui contient l'ImageLabel
+local imageLabel = screenGui:WaitForChild("ImageLabel")  -- L'ImageLabel
 
+-- Assigner l'image
+imageLabel.Image = "rbxassetid://116416664054759"
+
+-- Fonction pour afficher l'image
+local function showImageFor5Seconds()
+    imageLabel.Visible = true  -- Afficher l'image
+    wait(5)  -- Attendre 5 secondes
+    imageLabel.Visible = false  -- Masquer l'image après 5 secondes
+end
+
+-- Exécuter la fonction au début
+showImageFor5Seconds()
+
+wait(5.5)
 -- New draggable Orion Lib script for hub creations!
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
