@@ -435,7 +435,7 @@ Tab9:AddButton({
 
 local Tab10 = Window:MakeTab({
     Name = "Gang up simulator",
-    Icon = "rbxassetid://95593305",
+    Icon = "rbxassetid://114174716101522",
     PremiumOnly = false
 })
 
