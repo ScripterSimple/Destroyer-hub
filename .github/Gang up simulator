@@ -1,3 +1,21 @@
+-- Trouver le StarterGui pour ajouter l'image au joueur
+local player = game.Players.LocalPlayer
+local screenGui = Instance.new("ScreenGui", player.PlayerGui)  -- Crée un ScreenGui pour le client
+local imageLabel = Instance.new("ImageLabel")  -- Crée un ImageLabel
+
+-- Configurer l'ImageLabel pour occuper tout l'écran
+imageLabel.Size = UDim2.new(1, 0, 1, 0)
+imageLabel.Position = UDim2.new(0, 0, 0, 0)
+imageLabel.Image = "rbxassetid//95761357779908"  -- Utiliser l'ID de votre image
+imageLabel.BackgroundTransparency = 1  -- Rendre le fond transparent
+imageLabel.Visible = true  -- S'assurer que l'image est visible
+imageLabel.Parent = screenGui  -- Ajouter l'ImageLabel au ScreenGui
+
+-- Afficher l'image pendant 5 secondes
+wait(5)
+imageLabel.Visible = false  -- Masquer l'image après 5 secondes
+
+wait(5.2)
 -- New draggable Orion Lib script for hub creations!
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
