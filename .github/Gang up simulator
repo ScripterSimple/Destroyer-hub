@@ -77,7 +77,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Target Gui☠️☑️💯",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/4wAB1608"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/qBB20gGF"))()
     end    
 })
 
