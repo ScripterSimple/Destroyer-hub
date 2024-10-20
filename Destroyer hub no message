@@ -442,6 +442,6 @@ local Tab10 = Window:MakeTab({
 Tab10:AddButton({
     Name = "Best Gui By Me!",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/wNT2bgXf"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ScripterSimple/Destroyer-hub/refs/heads/main/.github/Gang%20up%20simulator"))()
     end    
 })
