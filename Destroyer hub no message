@@ -1,4 +1,38 @@
+-- Créer le GUI
+local player = game.Players.LocalPlayer
+local screenGui = Instance.new("ScreenGui", player.PlayerGui)
 
+-- Créer un cadre pour le texte et le logo
+local frame = Instance.new("Frame")
+frame.Parent = screenGui
+frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame.Position = UDim2.new(0.5, -150, 0.5, -50) -- Centrer le cadre
+frame.Size = UDim2.new(0, 300, 0, 100) -- Taille du cadre
+frame.AnchorPoint = Vector2.new(0.5, 0.5)
+
+-- Créer le texte
+local textLabel = Instance.new("TextLabel")
+textLabel.Parent = frame
+textLabel.BackgroundTransparency = 1
+textLabel.Position = UDim2.new(0.2, 0, 0.2, 0)
+textLabel.Size = UDim2.new(0.6, 0, 0.6, 0)
+textLabel.Text = "Subscribe to OfficielTuto-Lua"
+textLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+textLabel.TextScaled = true
+
+-- Créer l'image pour le logo YouTube
+local youTubeLogo = Instance.new("ImageLabel")
+youTubeLogo.Parent = frame
+youTubeLogo.BackgroundTransparency = 1
+youTubeLogo.Position = UDim2.new(0, 10, 0.2, 0) -- Positionner à gauche du texte
+youTubeLogo.Size = UDim2.new(0, 50, 0, 50) -- Taille de l'image
+youTubeLogo.Image = "rbxassetid://18621629057" -- Remplacez par l'ID de votre logo
+
+-- Fonction pour détruire le GUI après 2,5 secondes
+wait(2.5)
+screenGui:Destroy()
+
+wait(2.5)
 -- New draggable Orion Lib script for hub creations!
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
